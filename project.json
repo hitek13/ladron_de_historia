@@ -1,0 +1,116 @@
+{
+    "name": "El ladr\u00f3n de historia",
+    "code": "ELDH",
+    "icon": "C:/GIT/ladron_de_historia/ELDH_Resources/Pergamino.png",
+    "encounter_sets": [
+        {
+            "name": "Anacr\u00f3nicos males",
+            "icon": "C:/GIT/ladron_de_historia/ELDH_Resources/Pergamino.png",
+            "cards": [],
+            "id": "9a5f5e1b-9446-4211-b88e-87c0b17b028b",
+            "meta": {
+                "tts": {}
+            }
+        },
+        {
+            "name": "La mansi\u00f3n del estafador",
+            "icon": "C:/GIT/ladron_de_historia/ELDH_Resources/Pergamino.png",
+            "cards": [],
+            "id": "81c73fa9-7c8f-4018-87e2-6d7be752f4ae",
+            "meta": {
+                "tts": {},
+                "location_layouts": [
+                    {
+                        "id": "3977c116-708a-4bab-b9bb-02677f16f6ba",
+                        "name": "Layout 1",
+                        "show_arrows": true,
+                        "snap_enabled": false,
+                        "fixed_length_arrows": false,
+                        "hide_mode": false,
+                        "nodes": {}
+                    }
+                ],
+                "location_active_layout": "3977c116-708a-4bab-b9bb-02677f16f6ba"
+            }
+        }
+    ],
+    "cards": [
+        {
+            "name": "Jard\u00edn de la mansi\u00f3n",
+            "id": "faca9e13-f130-401a-a5be-6084e3bd9235",
+            "amount": 3,
+            "front": {
+                "type": "location",
+                "illustration": "C:/GIT/ladron_de_historia/ELDH_Resources/Localizaciones/photo_2026-09-25_21-24-09.jpg"
+            },
+            "back": {
+                "type": "location_back",
+                "flavor_text": "Un otrora bellisimo jard\u00edn infestado de zarzas y  yerbajos que dificultan el paso a la mansi\u00f3n.",
+                "illustration": "C:/GIT/ladron_de_historia/ELDH_Resources/Localizaciones/photo_2026-09-25_21-24-09.jpg",
+                "illustration_scale": 0.0
+            },
+            "encounter_set": "81c73fa9-7c8f-4018-87e2-6d7be752f4ae"
+        },
+        {
+            "name": "Anacr\u00f3nicos males",
+            "id": "73c32157-9331-484d-a86d-5610f9fa28f3",
+            "amount": 3,
+            "front": {
+                "type": "treachery",
+                "text": "La cagaste, Burt Lancaster"
+            },
+            "back": {
+                "type": "encounter"
+            },
+            "encounter_set": "9a5f5e1b-9446-4211-b88e-87c0b17b028b"
+        },
+        {
+            "id": "a5acc30a-b6e4-4b51-9e51-1c2f702a4b12",
+            "name": "Buscando respuestas",
+            "front": {
+                "type": "act",
+                "index": "1"
+            },
+            "back": {
+                "type": "act_back"
+            },
+            "encounter_set": "81c73fa9-7c8f-4018-87e2-6d7be752f4ae"
+        },
+        {
+            "name": "La ni\u00f1a de cabellos dorados",
+            "id": "ccb67ff4-2db7-4e3f-bfda-c15e5ae26d77",
+            "amount": 3,
+            "front": {
+                "type": "enemy",
+                "flavor_text": "Una ni\u00f1a insolente y respondona tan alien\u00edgena a la mansi\u00f3n como los objetos que contiene."
+            },
+            "back": {
+                "type": "encounter"
+            },
+            "encounter_set": "81c73fa9-7c8f-4018-87e2-6d7be752f4ae"
+        },
+        {
+            "name": "El gato negro",
+            "id": "23f4387e-2691-444f-80de-b9c97e37a4a5",
+            "amount": 3,
+            "front": {
+                "type": "enemy",
+                "flavor_text": "Un gato de pelaje azabache te observa sin parpadear. ",
+                "text": "Apuff",
+                "illustration": "C:/GIT/ladron_de_historia/ELDH_Resources/Personajes/GatoNegro.jpg",
+                "illustration_pan_x": 74.0,
+                "illustration_pan_y": 1026.0,
+                "illustration_scale": 1.937
+            },
+            "back": {
+                "type": "encounter"
+            },
+            "encounter_set": "81c73fa9-7c8f-4018-87e2-6d7be752f4ae"
+        }
+    ],
+    "id": "4b338480-870e-49af-839a-fc6465072a90",
+    "meta": {
+        "dirty": [],
+        "language": "es"
+    }
+}
