@@ -13,7 +13,7 @@
             "id": "faca9e13-f130-401a-a5be-6084e3bd9235",
             "amount": 3,
             "front": {
-                "illustration": "C:/GIT/ladron_de_historia/ELDH_Resources/Localizaciones/photo_2026-09-25_21-24-09.jpg",
+                "illustration": "ELDH_Resources/Localizaciones/photo_2026-09-25_21-24-09.jpg",
                 "type": "location"
             },
             "back": {
@@ -89,7 +89,7 @@
         {
             "name": "Anacr\u00f3nicos males",
             "id": "9a5f5e1b-9446-4211-b88e-87c0b17b028b",
-            "icon": "C:/GIT/ladron_de_historia/ELDH_Resources/Pergamino.png",
+            "icon": "ELDH_Resources/Pergamino.png",
             "meta": {
                 "tts": {}
             },
